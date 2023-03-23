@@ -166,7 +166,7 @@ document.querySelector(".location-button").addEventListener("click", function() 
 })
 
 
-// Initial screen 
-currentWeather.fetchWeather("Delhi");
-currentWeather.fetchForcast("Delhi");
+// Initial screen // Default City is Chennai
+currentWeather.fetchWeather("Chennai");
+currentWeather.fetchForcast("Chennai");
 
