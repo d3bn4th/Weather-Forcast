@@ -91,10 +91,12 @@ let currentWeather = {
         for(const element of allfnighticon) {
             const {Icon} = DailyForecasts[i].Night;
             if(Icon < 10){
-                element.src = "https://developer.accuweather.com/sites/default/files/0"+Icon+"-s.png";
+                // element.src = "https://developer.accuweather.com/sites/default/files/0"+Icon+"-s.png";
+                element.src = `https://developer.accuweather.com/sites/default/files/0 ${Icon}-s.png`;
             }
             else {
-                element.src = "https://developer.accuweather.com/sites/default/files/"+Icon+"-s.png";
+                // element.src = "https://developer.accuweather.com/sites/default/files/"+Icon+"-s.png";
+                element.src = `https://developer.accuweather.com/sites/default/files/${Icon}-s.png`;
             }
             i++;
         }
