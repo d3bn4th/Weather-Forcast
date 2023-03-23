@@ -32,6 +32,9 @@ let currentWeather = {
         document.querySelector(".visibility").innerHTML = `<span style="color:#1e2390; font-size:1.2em">Visibility : </span> ${visibility/1000} Km`;
         document.querySelector(".temp_min").innerHTML= `<span style="color:#1e2390; font-size:1.2em">Min Temp. : </span> ${temp_min} °C`;
         document.querySelector(".temp_max").innerHTML= `<span style="color:#1e2390; font-size:1.2em">Max Temp. : </span> ${temp_min} °C`;
+
+        //chnaging background images according to the weather description
+        
     },
     
     // 5 Day Forcast
