@@ -33,5 +33,6 @@
   -  to fetch exact location coordinates of the user
 
 # Upcoming Features
-+ Dark Mode
++ Dark Mode/ Ligth Mode Switch
 + Background Image changes according to the weather condition
++ Responsive Design
