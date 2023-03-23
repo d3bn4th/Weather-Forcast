@@ -3,7 +3,8 @@
  It also shows the weather a the user's location
  
 ### https://weather-forcast-gdsc.netlify.app/
- 
+### https://d3bn4th.github.io/Weather-Forcast/
+
  ## Tech Used
  + HTML5
  + Plain CSS
@@ -25,3 +26,7 @@
   - to show 5 Day Weather Forcast
 + Navigator.geolocation [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
   -  to fetch exact location coordinates of the user
+
+# Upcoming Features
++ Dark Mode
++ Background Image Changes to the city searched
