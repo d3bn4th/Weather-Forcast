@@ -2,6 +2,8 @@
  Weather application which displays the current weather conditions for a given location, along with a five-day forecast. It also allows users to search for weather information for any location of their choice. 
  It also shows the weather a the user's location
  
+### https://weather-forcast-gdsc.netlify.app/
+ 
  ## Tech Used
  + HTML5
  + Plain CSS
