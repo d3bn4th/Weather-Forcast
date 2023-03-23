@@ -77,10 +77,10 @@ let currentWeather = {
         for(const element of allfdayicon) {
             const {Icon} = DailyForecasts[i].Day;
             if(Icon < 10){
-                element.src = "http://developer.accuweather.com/sites/default/files/0"+Icon+"-s.png";
+                element.src = "https://developer.accuweather.com/sites/default/files/0"+Icon+"-s.png";
             }
             else {
-                element.src = "http://developer.accuweather.com/sites/default/files/"+Icon+"-s.png";
+                element.src = "https://developer.accuweather.com/sites/default/files/"+Icon+"-s.png";
             }
             i++;
         }
