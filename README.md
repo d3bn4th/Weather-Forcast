@@ -1,4 +1,4 @@
-# Weather Forcast - GDSC Project
+# Weather Forecast - GDSC Project
  Weather application which displays the current weather conditions for a given location, along with a five-day forecast. It also allows users to search for weather information for any location of their choice. 
  It also shows the weather a the user's location
  
@@ -28,7 +28,7 @@
 + OpenWeatherMap API [API Docs](https://openweathermap.org/current)
   - to show current weather conditions by city name and lat-lon
 + AccuWeather API [API Docs](https://developer.accuweather.com/apis)
-  - to show 5 Day Weather Forcast
+  - to show 5 Day Weather Forecast
 + Navigator.geolocation [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
   -  to fetch exact location coordinates of the user
 
