@@ -34,4 +34,4 @@
 
 # Upcoming Features
 + Dark Mode
-+ Background Image Changes to the city searched
++ Background Image changes according to the weather condition
