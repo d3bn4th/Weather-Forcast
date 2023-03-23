@@ -39,12 +39,17 @@ let currentWeather = {
     
     // 5 Day Forcast
     // API used : https://developer.accuweather.com/apis;
-    forcast_apiKey: "vTAl4hwQXr17n1jDgP4rzEFGfjDR7mz1",
+    // forcast_apiKey: "vTAl4hwQXr17n1jDgP4rzEFGfjDR7mz1",
+    forcast_apiKey: "cVYtAGB0zNwYekYGUC7AWBsgHrRheuvN",
+    // forcast_apiKey: "SYstqNR4WX418mvaz1SGgTeHOUX0317l",
     fetchForcast: function(city) {
         var location_key;
-        const loc_key_url = "https://dataservice.accuweather.com/locations/v1/cities/search?apikey=SYstqNR4WX418mvaz1SGgTeHOUX0317l&q=" + city;
+        const loc_key_url = "https://dataservice.accuweather.com/locations/v1/cities/search?apikey="
+        +this.forcast_apiKey+
+        "&q=" 
+        + city;
         fetch(loc_key_url).then((res) => res.json()).then( (data) => 
-        fetch("https://dataservice.accuweather.com/forecasts/v1/daily/5day/"+data[0].Key +"?apikey=SYstqNR4WX418mvaz1SGgTeHOUX0317l&metric=true")
+        fetch("https://dataservice.accuweather.com/forecasts/v1/daily/5day/"+data[0].Key +"?apikey=" + this.forcast_apiKey+"&metric=true")
         .then((res) => res.json()).then((data) => this.displayForcast(data)));
     },    
 
