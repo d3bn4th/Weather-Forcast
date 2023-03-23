@@ -11,13 +11,18 @@
  + Vanila JS
  
  ## Welcome Page
- ![image](https://user-images.githubusercontent.com/55922828/227088002-59bc6336-6519-456f-b537-eeaa56e3b054.png)
+ 
+ ### Ligth Mode
+ ![image](https://user-images.githubusercontent.com/55922828/227143902-c54145fc-3cb5-4410-a759-2e472ab578fa.png)
+
+ ### Dark Mode
+ ![image](https://user-images.githubusercontent.com/55922828/227143752-da4c474f-e50d-4b52-ae98-e7aeb38c57c1.png)
  
  ## Search by City Name (using OpenWeather API)
- ![image](https://user-images.githubusercontent.com/55922828/227088169-11efb7e7-fbd0-4ece-bd44-1a01f802a9e1.png)
+![image](https://user-images.githubusercontent.com/55922828/227144081-ed1332ec-78fc-4ad9-a4ed-0ede893b2b11.png)
 
 ## Show weather at users location (using navigator object)
-![image](https://user-images.githubusercontent.com/55922828/227088271-65a4bb02-647b-42b9-a168-bd4479980766.png)
+![image](https://user-images.githubusercontent.com/55922828/227144193-9bbc359f-db1b-4fa9-92a6-8cbb72a40639.png)
 
 # Tools Used
 + OpenWeatherMap API [API Docs](https://openweathermap.org/current)
