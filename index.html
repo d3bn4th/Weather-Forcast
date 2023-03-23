@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="search">
+        <div class="search-bar">
+                <input type="text" class="search-input" placeholder="City" name="search">
+                <button type="submit" class="search-button">
+                    Search
+                </button>
+        </div>
+        <button class="location-button">
+            <img src="/images/location-icon.jpg" alt="location icon" height = 30px>
+            <span style="margin-left: 15px;">Your Location Weather</span>
+        </button>
+    </div>
+    <div class="weather">
+        <div class="card-1">
+            <span class="city">Loading...</span>
+            <span class="temp" style="font-size: 2.5em;"></span>
+            <span class="description"></span>
+        </div>
+        <div class="card-2">
+            <!-- Write in Table -->
+            <span></span>
+            <span class="humidity"></span>
+            <span class="wind"></span>
+            <span class="visibility"></span>
+            <span class="temp_max"></span>
+            <span class="temp_min"></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="forcast">
+        <div class="days day-1">
+            <div class="ftop ftop-1">
+                <h2 class="date"></h2>
+            </div>
+            <div class="fbottom fbottom-1">
+                <div class="ftemp ftemp-1"></div>
+                <div class="fday">
+                     <img src="images/weather icon/1-s.png" alt="" class="fday-icon">
+                    <p class="fday-description"></p>
+                </div>
+                <div class="fnight">
+                    <img src="images/weather icon/33-s.png" alt="" class="fnight-icon">
+                    <p class="fnight-description"></p>
+                </div>
+            </div>
+        </div>
+        <div class="days day-2">
+            <div class="ftop ftop-2">
+                <h2 class="date"></h2>
+            </div>
+            <div class="fbottom fbottom-2">
+                <div class="ftemp ftemp-2"></div>
+                <div class="fday fday-2">
+                    <img src="images/weather icon/1-s.png" alt="" class="fday-icon fday-icon-2">
+                    <p class="fday-description"></p>
+                </div>
+                <div class="fnight fnight-2">
+                    <img src="images/weather icon/33-s.png" alt="" class="fnight-icon fnight-icon-2">
+                    <p class="fnight-description"></p>
+                </div>
+            </div>
+        </div>
+        <div class="days day-3">
+            <div class="ftop ftop-3">
+                <h2 class="date"></h2>
+            </div>
+            <div class="fbottom fbottom-3">
+                <div class="ftemp ftemp-3"></div>
+                <div class="fday fday-3">
+                    <img src="images/weather icon/1-s.png" alt="" class="fday-icon fday-icon-3">
+                    <p class="fday-description fday-description-1"></p>
+                </div>
+                <div class="fnight fnight-3">
+                    <img src="images/weather icon/33-s.png" alt="" class="fnight-icon fnight-icon-3">
+                    <p class="fnight-description"></p>
+                </div>
+            </div>  
+        </div>
+        <div class="days day-4">
+            <div class="ftop ftop-4">
+                <h2 class="date"></h2>
+            </div>
+            <div class="fbottom fbottom-4">
+                <div class="ftemp ftemp-4"></div>
+                <div class="fday fday-4">
+                    <img src="images/weather icon/1-s.png" alt="" class="fday-icon fday-icon-4">
+                    <p class="fday-description fday-description-4"></p>
+                </div>
+                <div class="fnight fnight-4">
+                    <img src="images/weather icon/33-s.png" alt="" class="fnight-icon fnight-icon-4">
+                    <p class="fnight-description"></p>
+                </div>
+            </div>
+        </div>
+        <div class="days day-5">
+            <div class="ftop ftop-5">
+                <h2 class="date"></h2>
+            </div>
+            <div class="fbottom fbottom-5">
+                <div class="ftemp ftemp-5"></div>
+                <div class="fday fday-5">
+                    <img src="images/weather icon/1-s.png" alt="" class="fday-icon fday-icon-5">
+                    <p class="fday-description fday-description-5"></p>
+                </div>
+                <div class="fnight fnight-5">
+                    <img src="images/weather icon/33-s.png" alt="" class="fnight-icon fnight-icon-5">
+                    <p class="fnight-description"></p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js" defer></script> 
+</body>
+</html>
