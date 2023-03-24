@@ -5,7 +5,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #E5E5E5;
     background-image: url('./images/day-wall.jpg');
-    background-size:     cover;                     
+    background-size: cover;                     
     overflow-x: hidden; 
 }
 
@@ -193,6 +193,7 @@ body {
 
 
 /* DARK MODE */
+
 
 @media (prefers-color-scheme: dark){
     body {
