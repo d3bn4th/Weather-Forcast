@@ -7,16 +7,16 @@
 
 # Welcome Page
  
-## Ligth Mode
+## 1 Ligth Mode
 ![image](https://user-images.githubusercontent.com/55922828/227419120-fc0917f5-8da4-49cb-88ac-dabf6a2964c6.png)
 
-## Dark Mode
+## 2 Dark Mode
 ![image](https://user-images.githubusercontent.com/55922828/227585055-5638e5d0-bece-44f9-a31d-18da6c5c4f0e.png)
 
-## Search by City Name (using OpenWeather API)
+## 3 Search by City Name (using OpenWeather API)
 ![image](https://user-images.githubusercontent.com/55922828/227585166-fc72e8be-de6a-423b-98a7-00ca1276c0de.png)
 
-## Show weather at users location (using navigator object)
+## 4 Show weather at users location (using navigator object)
 ![image](https://user-images.githubusercontent.com/55922828/227585367-8c7fc644-a3e8-4c92-9ca3-ac2e1c11e7a9.png)
 
 
