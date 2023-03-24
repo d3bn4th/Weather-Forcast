@@ -25,11 +25,11 @@
 ![image](https://user-images.githubusercontent.com/55922828/227419280-15c3d30e-c2b0-4e99-94cb-ce08f74e0a24.png)
 
 # Tools Used
-+ OpenWeatherMap API [API Docs](https://openweathermap.org/current)
++ ##OpenWeatherMap API ## [API Docs](https://openweathermap.org/current)
   - to show current weather conditions by city name and lat-lon
-+ AccuWeather API [API Docs](https://developer.accuweather.com/apis)
++ ## AccuWeather API ## [API Docs](https://developer.accuweather.com/apis)
   - to show 5 Day Weather Forecast
-+ Navigator.geolocation [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
++ ## Navigator.geolocation ## [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
   -  to fetch exact location coordinates of the user
 
 # Upcoming Features
