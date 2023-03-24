@@ -27,11 +27,11 @@ let currentWeather = {
         document.querySelector(".city").innerHTML = name.toUpperCase(2);
         document.querySelector(".temp").innerHTML =  Math.round(temp) + " °C";
         document.querySelector(".description").innerHTML = description;
-        document.querySelector(".humidity").innerHTML = `<i class="fa-solid fa-water"></i><span style="color:#1e2390; font-size:1.2em"> Humidity : </span> ${humidity}%`;
-        document.querySelector(".wind").innerHTML = `<i class="fa-solid fa-wind"></i><span style="color:#1e2390; font-size:1.2em"> Wind : </span> ${speed} Km/hr`;
-        document.querySelector(".visibility").innerHTML = `<i class="fa-solid fa-cloud"></i><span style="color:#1e2390; font-size:1.2em"> Visibility : </span> ${visibility/1000} Km`;
-        document.querySelector(".temp_min").innerHTML= `<i class="fa-solid fa-temperature-arrow-up"></i><span style="color:#1e2390; font-size:1.2em"> Min Temp. : </span> ${temp_min} °C`;
-        document.querySelector(".temp_max").innerHTML= `<i class="fa-solid fa-temperature-arrow-down"></i><span style="color:#1e2390; font-size:1.2em"> Max Temp. : </span> ${temp_min} °C`;
+        document.querySelector(".humidity").innerHTML = `<i class="fa-solid fa-water"></i><span style="color: #150656;  font-size:1.2em"> Humidity :  ${humidity}% </span>`;
+        document.querySelector(".wind").innerHTML = `<i class="fa-solid fa-wind"></i><span style="color: #150656;  font-size:1.2em"> Wind :  ${speed} Km/hr </span>`;
+        document.querySelector(".visibility").innerHTML = `<i class="fa-solid fa-cloud"></i><span style="color: #150656; ; font-size:1.2em"> Visibility : ${visibility/1000} Km </span>`;
+        document.querySelector(".temp_min").innerHTML= `<i class="fa-solid fa-temperature-arrow-up"></i><span style="color: #150656; font-size:1.2em"> Min Temp. : ${temp_min} °C </span>`;
+        document.querySelector(".temp_max").innerHTML= `<i class="fa-solid fa-temperature-arrow-down"></i><span style="color: #150656;  font-size:1.2em"> Max Temp. : ${temp_min} °C </span>`;
 
         //chnaging background images according to the weather description
         
@@ -42,7 +42,7 @@ let currentWeather = {
 
     // forcast_apiKey: "vTAl4hwQXr17n1jDgP4rzEFGfjDR7mz1",
     // forcast_apiKey: "SYstqNR4WX418mvaz1SGgTeHOUX0317l",
-    // forcast_apiKey: "PcmALQZ8L3Biz4lUBa5tBMAyTZkAl7LL",
+    forcast_apiKey: "PcmALQZ8L3Biz4lUBa5tBMAyTZkAl7LL",
     // forcast_apiKey: "cVYtAGB0zNwYekYGUC7AWBsgHrRheuvN",
 
     fetchForcast: function(city) {
