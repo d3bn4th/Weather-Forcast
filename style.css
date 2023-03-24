@@ -20,11 +20,10 @@ body {
     height: 125px;
     border-radius: 20px;
     opacity: 0.9;
-
 }
 .search-bar {
     display: flex;
-    color: #555;
+    color: #202362;
     border: none;
 }
 .search-input {
@@ -36,7 +35,8 @@ body {
     border: none;
     font-size: 1.5em;
     font-family: inherit;
-    color: #555555;
+    color: #202362;
+
 }
 .search-button {
     border-top-right-radius: 20px;

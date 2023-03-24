@@ -40,7 +40,7 @@ let currentWeather = {
     // 5 Day Forcast
     // API used : https://developer.accuweather.com/apis;
 
-    forcast_apiKey: "vTAl4hwQXr17n1jDgP4rzEFGfjDR7mz1",
+    // forcast_apiKey: "vTAl4hwQXr17n1jDgP4rzEFGfjDR7mz1",
     // forcast_apiKey: "SYstqNR4WX418mvaz1SGgTeHOUX0317l",
     // forcast_apiKey: "PcmALQZ8L3Biz4lUBa5tBMAyTZkAl7LL",
     // forcast_apiKey: "cVYtAGB0zNwYekYGUC7AWBsgHrRheuvN",
