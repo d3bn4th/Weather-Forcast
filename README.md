@@ -1,4 +1,4 @@
-# Weather Forcast - GDSC Project
+# Weather Forecast - GDSC Project
  Weather application which displays the current weather conditions for a given location, along with a five-day forecast. It also allows users to search for weather information for any location of their choice. 
  It also shows the weather a the user's location
  
@@ -11,22 +11,28 @@
  + Vanila JS
  
  ## Welcome Page
- ![image](https://user-images.githubusercontent.com/55922828/227088002-59bc6336-6519-456f-b537-eeaa56e3b054.png)
+ 
+ ### Ligth Mode
+ ![image](https://user-images.githubusercontent.com/55922828/227143902-c54145fc-3cb5-4410-a759-2e472ab578fa.png)
+
+ ### Dark Mode
+ ![image](https://user-images.githubusercontent.com/55922828/227143752-da4c474f-e50d-4b52-ae98-e7aeb38c57c1.png)
  
  ## Search by City Name (using OpenWeather API)
- ![image](https://user-images.githubusercontent.com/55922828/227088169-11efb7e7-fbd0-4ece-bd44-1a01f802a9e1.png)
+![image](https://user-images.githubusercontent.com/55922828/227144081-ed1332ec-78fc-4ad9-a4ed-0ede893b2b11.png)
 
 ## Show weather at users location (using navigator object)
-![image](https://user-images.githubusercontent.com/55922828/227088271-65a4bb02-647b-42b9-a168-bd4479980766.png)
+![image](https://user-images.githubusercontent.com/55922828/227144193-9bbc359f-db1b-4fa9-92a6-8cbb72a40639.png)
 
 # Tools Used
 + OpenWeatherMap API [API Docs](https://openweathermap.org/current)
   - to show current weather conditions by city name and lat-lon
 + AccuWeather API [API Docs](https://developer.accuweather.com/apis)
-  - to show 5 Day Weather Forcast
+  - to show 5 Day Weather Forecast
 + Navigator.geolocation [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
   -  to fetch exact location coordinates of the user
 
 # Upcoming Features
-+ Dark Mode
-+ Background Image Changes to the city searched
++ Dark Mode/ Ligth Mode Switch
++ Background Image changes according to the weather condition
++ Responsive Design
