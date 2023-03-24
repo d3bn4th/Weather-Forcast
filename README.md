@@ -13,16 +13,16 @@
  ## Welcome Page
  
  ### Ligth Mode
- ![image](https://user-images.githubusercontent.com/55922828/227143902-c54145fc-3cb5-4410-a759-2e472ab578fa.png)
+![image](https://user-images.githubusercontent.com/55922828/227419120-fc0917f5-8da4-49cb-88ac-dabf6a2964c6.png)
 
  ### Dark Mode
- ![image](https://user-images.githubusercontent.com/55922828/227143752-da4c474f-e50d-4b52-ae98-e7aeb38c57c1.png)
- 
+![image](https://user-images.githubusercontent.com/55922828/227419202-ba1cf6c6-c061-4648-9250-1082cd92c96c.png) 
+
  ## Search by City Name (using OpenWeather API)
-![image](https://user-images.githubusercontent.com/55922828/227144081-ed1332ec-78fc-4ad9-a4ed-0ede893b2b11.png)
+![image](https://user-images.githubusercontent.com/55922828/227419362-96ca3b8e-ab2f-4640-9e4d-6e3ccf5f46c8.png)
 
 ## Show weather at users location (using navigator object)
-![image](https://user-images.githubusercontent.com/55922828/227144193-9bbc359f-db1b-4fa9-92a6-8cbb72a40639.png)
+![image](https://user-images.githubusercontent.com/55922828/227419280-15c3d30e-c2b0-4e99-94cb-ce08f74e0a24.png)
 
 # Tools Used
 + OpenWeatherMap API [API Docs](https://openweathermap.org/current)
