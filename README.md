@@ -22,7 +22,8 @@
 ![image](https://user-images.githubusercontent.com/55922828/227419362-96ca3b8e-ab2f-4640-9e4d-6e3ccf5f46c8.png)
 
 ## Show weather at users location (using navigator object)
-![image](https://user-images.githubusercontent.com/55922828/227419280-15c3d30e-c2b0-4e99-94cb-ce08f74e0a24.png)
+![image](https://user-images.githubusercontent.com/55922828/227420137-106bb95d-90fd-4d6f-9035-3fb3f7b65bbf.png)
+
 
 # Tools Used
 + ## OpenWeatherMap API [API Docs](https://openweathermap.org/current)
