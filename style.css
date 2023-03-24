@@ -101,6 +101,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 2.7em;
+    text-transform: capitalize;
 }
 .card-2 {
     display: flex;
