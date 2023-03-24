@@ -13,23 +13,24 @@
  ## Welcome Page
  
  ### Ligth Mode
- ![image](https://user-images.githubusercontent.com/55922828/227143902-c54145fc-3cb5-4410-a759-2e472ab578fa.png)
+![image](https://user-images.githubusercontent.com/55922828/227419120-fc0917f5-8da4-49cb-88ac-dabf6a2964c6.png)
 
  ### Dark Mode
- ![image](https://user-images.githubusercontent.com/55922828/227143752-da4c474f-e50d-4b52-ae98-e7aeb38c57c1.png)
- 
+![image](https://user-images.githubusercontent.com/55922828/227419202-ba1cf6c6-c061-4648-9250-1082cd92c96c.png) 
+
  ## Search by City Name (using OpenWeather API)
-![image](https://user-images.githubusercontent.com/55922828/227144081-ed1332ec-78fc-4ad9-a4ed-0ede893b2b11.png)
+![image](https://user-images.githubusercontent.com/55922828/227420537-8a70cb6c-fba3-4e59-9ff2-4bd592c0337c.png)
 
 ## Show weather at users location (using navigator object)
-![image](https://user-images.githubusercontent.com/55922828/227144193-9bbc359f-db1b-4fa9-92a6-8cbb72a40639.png)
+![image](https://user-images.githubusercontent.com/55922828/227420137-106bb95d-90fd-4d6f-9035-3fb3f7b65bbf.png)
+
 
 # Tools Used
-+ OpenWeatherMap API [API Docs](https://openweathermap.org/current)
++ ## OpenWeatherMap API [API Docs](https://openweathermap.org/current)
   - to show current weather conditions by city name and lat-lon
-+ AccuWeather API [API Docs](https://developer.accuweather.com/apis)
++ ## AccuWeather API [API Docs](https://developer.accuweather.com/apis)
   - to show 5 Day Weather Forecast
-+ Navigator.geolocation [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
++ ## Navigator.geolocation [Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation)
   -  to fetch exact location coordinates of the user
 
 # Upcoming Features
