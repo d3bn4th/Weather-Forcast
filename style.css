@@ -230,18 +230,18 @@ body {
         border: 3px solid blue;
     }
     .ftemp {
-        background-color:  #6a70e4;
         color: #1e2390;
         height: 100px;
     }
     .fday {
-        color: #150656;   
+        color: #120356;   
+        background-color:  #6a70e400;
     }
     .ftop {
         background-color: #202362;
     }
     .fbottom {
-        background-color:  #6a70e4;
+        background-color:  #6a70e481;
     }
     .fnight {
         background-color: #202362;
