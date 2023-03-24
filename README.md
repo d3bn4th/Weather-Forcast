@@ -19,7 +19,7 @@
 ![image](https://user-images.githubusercontent.com/55922828/227419202-ba1cf6c6-c061-4648-9250-1082cd92c96c.png) 
 
  ## Search by City Name (using OpenWeather API)
-![image](https://user-images.githubusercontent.com/55922828/227419362-96ca3b8e-ab2f-4640-9e4d-6e3ccf5f46c8.png)
+![image](https://user-images.githubusercontent.com/55922828/227420537-8a70cb6c-fba3-4e59-9ff2-4bd592c0337c.png)
 
 ## Show weather at users location (using navigator object)
 ![image](https://user-images.githubusercontent.com/55922828/227420137-106bb95d-90fd-4d6f-9035-3fb3f7b65bbf.png)
