@@ -216,11 +216,11 @@ body {
         background-color: #02053980;
         color: #f1e5e5;        
         font-size: 2em;
-        border: 3px solid blue;
+        border: 3px solid rgb(31, 31, 131);
     }
     .search-button {
         height: 84px; 
-        border: 3px solid blue;
+        border: 3px solid rgb(28, 28, 113);
         font-size: 1.5em;
     }
     .card-1,.card-2 {
@@ -228,7 +228,7 @@ body {
         color: #150656;   
     }
     .location-button {
-        border: 3px solid blue;
+        border: 3px solid rgb(31, 31, 107);
     }
     .ftemp {
         color: #1e2390;
